@@ -1,19 +1,24 @@
-# medical_care
-This project provides you healthcare services
+# README
 
-Maintains your records and helps you manage your health related data.
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
-we are working on two situations :
+Things you may want to cover:
 
-Emergency and genral health related services.
+* Ruby version
 
-1. Emergency:
+* System dependencies
 
-alert messages to nearest hospital, contact to ambulance, detection of current loction, medical record automatically sent to hospital.
+* Configuration
 
-2.General service:
+* Database creation
 
-nearby hospitals, live vacancy status, comparision among prices, nearest chemist shops, doctors' contacts, other customer reviews, appointment to the clinics.
+* Database initialization
 
-Other stuff like medical facts, and knowledge about diseases.
+* How to run the test suite
 
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...

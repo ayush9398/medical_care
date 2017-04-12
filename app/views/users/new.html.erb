@@ -1,0 +1,548 @@
+<div class="main">
+		<h1 class="w3layouts_head">Enter your details here...</h1>
+		<div class="w3layouts_main_grid">
+			<form action="/login" method="post" class="w3_form_post">
+				<div class="w3_agileits_main_grid w3l_main_grid">
+					<div class="agileits_grid">
+						<h5>Name * </h5>
+						<div class="nam">
+							<input type="text" name="First name" placeholder="First Name" required="">
+						</div>
+						<div class="nam1">
+							<input type="text" name="Last name" placeholder="Last Name" required="">
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="w3_agileits_main_grid w3l_main_grid">
+					<div class="agileits_grid">
+						<h5>E-mail </h5>
+							<input type="email" name="Email" placeholder="ex : myname@gmail.com" required="">
+					</div>
+				</div>
+				<div class="agileits_main_grid w3_agileits_main_grid">
+					<div class="wthree_grid">
+						<h5>Gender</h5>
+						<select id="category" name="category" required="">
+							<option value="none">None</option>
+							<option value="category1">Male</option>
+							<option value="category2">Female</option>
+							<option value="category3">Others</option>
+							
+						</select>
+					</div>
+				</div>
+				<div class="agileits_w3layouts_main_grid w3ls_main_grid">
+					<div class="agileinfo_grid">
+					<h5>Address *</h5>
+						<!--
+						<div class="agileits_w3layouts_main_gridl">
+							<input class="date" id="datepicker" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '08/13/2016';}" required="">
+						</div>
+						<div class="agileits_w3layouts_main_gridr">
+							<input type="time" name="Time" placeholder=" " required="">
+						</div>-->
+						<div class="agileits_grid">
+							<input type="text" name="Address" placeholder="Address" required="">
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<div class="agileits_w3layouts_main_grid w3ls_main_grid">
+					<div class="agileinfo_grid">
+					<h5>DOB*</h5>
+						
+						<div class="agileits_w3layouts_main_gridl">
+							<input class="date" id="datepicker1" name="Text" type="text" value="mm/dd/yyyy" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '08/13/2016';}" required="">
+						</div>
+						<!--<div class="agileits_w3layouts_main_gridr">
+							<input type="time" name="Time" placeholder=" " required="">
+						</div>-->
+						<div class="clear"> </div>
+					</div>
+				</div>
+				<div class="w3_agileits_main_grid w3l_main_grid">
+					<div class="agileits_grid">
+						<h5>Allergies </h5>
+							<input type="text" name="Allergies" placeholder="" required="">
+					</div>
+				</div>
+				<div class="w3_agileits_main_grid w3l_main_grid">
+					<div class="agileits_grid">
+						<h5>Phone no. </h5>
+							<input type="text" name="Phone" placeholder="" required="">
+					</div>
+				</div>
+				<div class="w3_agileits_main_grid w3l_main_grid">
+					<div class="agileits_grid">
+						<h5>Password </h5>
+							<input type="Password" name="Password" placeholder="" required="">
+					</div>
+				</div>
+				<div class="w3_main_grid">
+					
+					<div class="w3_main_grid_right">
+						<input type="submit" value="Sign Up">
+					</div>
+					<div class="clear"> </div>
+				</div>
+			</form>
+		</div>
+		<!-- Calendar -->
+			<link rel="stylesheet" href="css/jquery-ui.css" />
+			<script src="js/jquery-ui.js"></script>
+			  <script>
+					  $(function() {
+						$( "#datepicker,#datepicker1" ).datepicker();
+					  });
+			  </script>
+		<!-- //Calendar -->
+		
+	</div>
+
+<style type="text/css">
+	/*--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+--*/
+/* reset */
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,dl,dt,dd,ol,nav ul,nav li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline;}
+article, aside, details, figcaption, figure,footer, header, hgroup, menu, nav, section {display: block;}
+ol,ul{list-style:none;margin:0px;padding:0px;}
+blockquote,q{quotes:none;}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
+table{border-collapse:collapse;border-spacing:0;}
+/* start editing from here */
+a{text-decoration:none;}
+.txt-rt{text-align:right;}/* text align right */
+.txt-lt{text-align:left;}/* text align left */
+.txt-center{text-align:center;}/* text align center */
+.float-rt{float:right;}/* float right */
+.float-lt{float:left;}/* float left */
+.clear{clear:both;}/* clear float */
+.pos-relative{position:relative;}/* Position Relative */
+.pos-absolute{position:absolute;}/* Position Absolute */
+.vertical-base{	vertical-align:baseline;}/* vertical align baseline */
+.vertical-top{	vertical-align:top;}/* vertical align top */
+nav.vertical ul li{	display:block;}/* vertical menu */
+nav.horizontal ul li{	display: inline-block;}/* horizontal menu */
+img{max-width:100%;}
+/*end reset*/
+html, body{
+    font-size: 100%;
+     background: url(https://www.clipartsgram.com/image/2008625762-slide-5.jpg) no-repeat 0px 0px;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+ 
+	font-family: 'Poppins', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,input,p,a,select{
+	font-family: 'Poppins', sans-serif;
+	margin:0;
+}
+ul,label{
+	margin:0;
+	padding:0;
+}
+body a:hover,body a{
+	text-decoration:none;
+}
+/*-- main --*/
+.agileits_copyright{
+	text-align: center;
+}
+.agileits_copyright p{
+	font-size: 14px;
+    color: #fff;
+    margin: 3em 0 0;
+    line-height: 1.8em;
+    padding: 0 1em;
+    text-transform: capitalize;
+}
+.agileits_copyright p a{
+	color:#fff;
+	text-decoration:underline;
+}
+.agileits_copyright p a:hover{
+	color:#0fab0d;
+}
+input[type="submit"],.agileits_copyright p a,input[type="reset"],.w3_main_grid_left a{
+	transition:.5s ease-in;
+	-webkit-transition:.5s ease-in;
+	-moz-transition:.5s ease-in;
+	-o-transition:.5s ease-in;
+	-ms-transition:.5s ease-in;
+}
+.main{
+	padding:4em 0;
+}
+.main h1{
+	text-align: center;
+    color: #fff;
+    font-size: 3em;
+    margin-bottom: 1em;
+}
+.w3layouts_main_grid {
+    width: 35%;
+    padding: 2em;
+    margin: 0 auto;
+    background: rgba(5, 71, 103, 0.41);
+}
+.w3layouts_main_grid  {
+    padding: 2em;
+    display: block;
+}
+.w3layouts_main_grid h5{
+    color: #FFFFFF;
+    font-size: 16px;
+    font-style: normal;
+    margin: .8em 0 0;
+}
+
+.w3layouts_main_grid input[type="text"]{
+    outline: none;
+    width: 92%;
+    background: #fff;
+    color:#4B4B4B;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #E7E7E7;
+}
+.w3layouts_main_grid input[type="email"] {
+    outline: none;
+    width: 96%;
+    background: #fff;
+    color:#4B4B4B;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #E7E7E7;
+}
+#category{
+    outline: none;
+    width: 100%;
+    background: #fff;
+    color: #4B4B4B;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #E7E7E7;
+}
+#category1 {
+    outline: none;
+    width:12%;
+    background: #fff;
+    color: #4B4B4B;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #E7E7E7;
+}
+::-webkit-input-placeholder{
+	color:#4B4B4B !important;
+}
+.agileits_w3layouts_main_gridl{
+	float:left;
+	width:68%;
+}
+.agileits_w3layouts_main_gridl input[type="text"],.agileits_w3layouts_main_gridr input[type="time"]{
+	width:90% !important;
+}
+.agileits_w3layouts_main_gridr input[type="time"] {
+    padding: 7.5px !important;
+}
+.agileits_w3layouts_main_gridr{
+	float:right;
+	width:32%;
+}
+.w3_main_grid{
+	margin:2em 0 0;
+	padding:2em 0 0;
+	border-top:1px solid #fff;
+}
+.w3_main_grid_left{
+	float:left;
+	margin: 0.5em 0 0;
+}
+.w3_main_grid_left a{
+	font-size: 1em;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+.w3_main_grid_left a:hover{
+	color:#FF0F75;
+}
+.w3_main_grid_right{
+	float:right;
+	width: 30%;
+}
+.w3_main_grid_right input[type="submit"]{
+	outline:none;
+	padding:10px 0;
+	width:100%;
+	text-transform:uppercase;
+	font-size:14px;
+	color:#fff;
+	background:#ca951a;
+	border:none;
+	cursor:pointer;
+}
+.w3_main_grid_right input[type="submit"]:hover{
+	color:#0fab0d;
+	background:#fff;
+}
+.nam1 {
+    float: left;
+    width: 49%;
+    margin-left: 2%;
+}
+.nam {
+    float: left;
+    width: 49%;
+}
+.agileits_grid {
+    margin-bottom: 14px;
+}
+.agileits_w3layouts_main_grid.w3ls_main_grid {
+    margin-bottom: 16px;
+}
+.agileits_main_grid.w3_agileits_main_grid {
+    margin-bottom: 16px;
+}
+/*-- start-responsive-design --*/
+@media (max-width:1440px){
+	.w3layouts_main_grid {
+		width: 39%;
+	}
+}
+@media (max-width: 1366px){
+	.w3layouts_main_grid {
+		width: 41%;
+	}
+}
+@media (max-width: 1280px){
+	.w3layouts_main_grid {
+		width: 44%;
+	}
+}
+@media (max-width: 1080px){
+	.main h1 {
+		font-size: 2.7em;
+	}
+/*-- w3layouts --*/
+	.w3layouts_main_grid {
+		width: 52%;
+	}
+}
+@media (max-width: 1024px){
+	.w3layouts_main_grid {
+		width: 55%;
+	}
+}
+@media (max-width: 991px){
+	.w3layouts_main_grid {
+		width: 57%;
+	}
+}
+@media (max-width: 800px){
+	.main h1 {
+		font-size: 2.5em;
+	}
+	.main {
+		padding: 3em 0;
+	}
+	.w3layouts_main_grid {
+		width: 71%;
+	}
+}
+@media (max-width: 768px){
+	.w3layouts_main_grid input[type="text"]{
+		width: 91%;
+	}
+}
+@media (max-width: 736px){
+	.main h1 {
+		margin-bottom: 0.8em;
+	}
+}
+@media (max-width: 667px){
+	.w3layouts_main_grid input[type="text"]{
+		width: 90%;
+	}
+	.w3layouts_main_grid span label i {
+		right: 8%;
+	}
+	.main h1 {
+		font-size: 2.3em;
+	}
+	.agileits_w3layouts_main_gridr input[type="time"] {
+		padding: 9px 7.5px !important;
+	}
+	.w3layouts_main_grid input[type="email"] {
+		width: 95%;
+}
+#category1 {
+    width: 18%;
+}
+}
+@media (max-width: 640px){
+	.ui-datepicker {
+		width: 40.4%;
+	}
+	#category1 {
+    width: 21%;
+}
+}
+@media (max-width: 600px){
+	.w3layouts_main_grid span label {
+		float: none;
+		width: 100%;
+		margin: 0 0 1em;
+		display: block;
+	}
+	.w3layouts_main_grid input[type="text"]{
+		width: 89%;
+	}
+	.w3_main_grid_right {
+		width: 40%;
+	}
+	.w3layouts_main_grid input[type="email"] {
+    width: 94%;
+}
+}
+@media (max-width:568px){
+	.main h1 {
+		font-size: 2em;
+	}
+	.main {
+		padding: 2em 0;
+/*-- w3layouts --*/
+	}
+.w3layouts_main_grid input[type="text"] {
+    width: 88%;
+}
+}
+@media (max-width:480px){
+	.agileits_w3layouts_main_gridr input[type="time"] {
+		width: 95% !important;
+	}
+}
+@media (max-width:414px){
+	.w3layouts_main_grid {
+		padding: 1.5em;
+	}
+	.w3layouts_main_grid {
+		width: 75%;
+	}
+	.agileits_w3layouts_main_gridl input[type="text"], .agileits_w3layouts_main_gridr input[type="time"] {
+		width: 92% !important;
+	}
+	.agileits_w3layouts_main_gridr input[type="time"] {
+		width: 94% !important;
+	}
+	.w3_main_grid_left {
+		float: none;
+		text-align: center;
+		margin: 0 0 1em;
+	}
+	.w3_main_grid_right {
+		width: 50%;
+		float: none;
+/*-- agileits --*/
+		margin: 0 auto;
+	}
+	.w3layouts_main_grid span label i {
+		right: 65%;
+	}
+	.nam {
+    float: none;
+    width: 100%;
+    margin-bottom: 14px;
+}
+.nam1 {
+    float: none;
+    width: 100%;
+    margin-left: 0%;
+}
+.w3layouts_main_grid input[type="text"] {
+    width: 92%;
+}
+.w3layouts_main_grid input[type="email"] {
+    width: 92%;
+}
+.agileits_w3layouts_main_gridr {
+    float: none;
+    width: 100%;
+}
+.agileits_w3layouts_main_gridl {
+    float: none;
+    width: 100%;
+}
+.agileits_w3layouts_main_gridr {
+    float: none;
+    width: 99%;
+    margin-top: 14px;
+}
+}
+@media (max-width:384px){
+
+	.agileits_w3layouts_main_gridr input[type="time"] {
+		width: 93.8% !important;
+	}
+	.w3_main_grid_right input[type="submit"] {
+		padding: 7px 0;
+	}
+}
+@media (max-width: 375px){
+
+	.agileits_w3layouts_main_gridr input[type="time"] {
+		width: 93.5% !important;
+	}
+}
+@media (max-width: 320px){
+	.main h1 {
+		font-size: 1.7em;
+		margin-bottom: 0.5em;
+	}
+	.w3layouts_main_grid {
+		padding: 1em;
+	}
+	.agileits_w3layouts_main_gridr input[type="time"] {
+		width: 94.5% !important;
+	}
+	.w3_main_grid {
+		margin: 1em 0 0;
+		padding: 1em 0 0;
+	}
+	.w3_main_grid_left a {
+		font-size: 14px;
+	}
+	.w3_main_grid_right {
+		width: 100%;
+	}
+	.agileits_copyright p {
+		font-size: 13px;
+		margin: 2em 0 0;
+	}
+	.w3layouts_main_grid h5 {
+    font-size: 14px;
+	}
+	.w3layouts_main_grid input[type="text"] {
+    width: 90%;
+}
+.w3layouts_main_grid input[type="email"] {
+    width: 90%;
+}
+.w3layouts_main_grid input[type="text"],.w3layouts_main_grid input[type="email"],#category{
+    padding: 6px 10px;
+}
+#category1 {
+    width: 39%;
+	padding: 6px 10px;
+}
+.agileits_w3layouts_main_gridr input[type="time"] {
+    padding: 6px 8.5px !important;
+}
+}
+</style>
